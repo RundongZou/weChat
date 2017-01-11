@@ -1,0 +1,16 @@
+/* pages/list/list.wxss */
+.product_data {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+.product_item {
+	width: 375rpx;
+	padding: 50rpx; 
+	text-align: center;
+	box-sizing: border-box;
+}
+.product_item image {
+	width: 275rpx;
+	height: 275rpx;
+}

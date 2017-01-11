@@ -1,0 +1,13 @@
+<!--pages/list/list.wxml-->
+<view>
+	<view class="product_data">
+		<view wx:for="{{list_data}}" wx:key="{{index}}" bindtap="itemTap" id="{{index}}" class="product_item">
+			<image src="{{item.goodsListImg}}"></image>
+			<view>
+				<text>{{item.goodsName}}</text>
+			</view>			
+		</view>
+	</view>
+<!-- 	{{index}}: {{item.msg}} -->
+
+</view>
