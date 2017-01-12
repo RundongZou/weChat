@@ -22,8 +22,8 @@
           "text": "index"
       },
       {
-          "pagePath": "pages/swiper/swiper",
-          "text": "swiper"
+          "pagePath": "pages/list/list",
+          "text": "list"
       },
       {
           "pagePath": "pages/iscroll/iscroll",

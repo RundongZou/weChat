@@ -5,20 +5,22 @@
 	top: 0;
 	height: 46px;
 	width: 100%;
-	display: flex;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
+}
+.tabs_list {
+	white-space: nowrap;
+	width: auto;
 }
 .tab_item {
-	flex: 1;
+	width: 84px;
+	/*flex: 1;*/
 	height: 44px;
 	text-align: center;
 	line-height: 46px;
-	border-right: 2px solid #ccc;
 	box-sizing: border-box;
+	display: inline-block;
 }
 .tabs_wrap .active {
-	border-bottom: 1px solid green;
+	border-bottom: 2px solid green;
 }
 .swiper_wrap {
 	position: absolute;
@@ -26,5 +28,21 @@
 	top: 48px;
 	width: 100%;
 	bottom: 0;
+	height: 550px;
+}
+.scroll_list {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	width: 100%;
 	height: auto;
+	bottom: 0;
+	text-align: center;
+}
+.swiper_wrap image {
+	width: 90%;
+	margin: 5px auto;
+}
+swiper-item {
+	text-align: center;
 }
