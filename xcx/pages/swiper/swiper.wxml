@@ -1,0 +1,7 @@
+<!--pages/swiper/swiper.wxml-->
+<swiper indicator-dots="{{indicator_dots}}" autoplay="{{autoplay}}">
+	<block wx:for="{{img_urls}}">
+		<swiper-item>
+		</swiper-item>
+	</block>
+</swiper>

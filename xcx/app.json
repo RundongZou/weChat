@@ -3,35 +3,35 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/list/list",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/swiper/swiper",
+    "pages/iscroll/iscroll",
+    "pages/swi_scroll/swi_scroll"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "lightblue",
     "navigationBarTitleText": "愛與成長",
     "navigationBarTextStyle":"black",
-    "backgroundColor": "lightblue",
-    "enablePullDownRefresh": true
+    "backgroundColor": "lightblue"
   },
   "tabBar": {
     "list": [
       {
           "pagePath": "pages/index/index",
-          "text": "首頁",
-          "iconPath": "pages/images/index.png",
-          "selectedIconPath": "pages/images/index_on.png"
+          "text": "index"
       },
       {
-          "pagePath": "pages/list/list",
-          "text": "列表",
-          "iconPath": "pages/images/list.png",
-           "selectedIconPath": "pages/images/list_on.png"
+          "pagePath": "pages/swiper/swiper",
+          "text": "swiper"
       },
       {
-          "pagePath": "pages/logs/logs",
-          "text": "日誌",
-          "iconPath": "pages/images/log.png",
-           "selectedIconPath": "pages/images/log_on.png"
+          "pagePath": "pages/iscroll/iscroll",
+          "text": "iscroll"
+      },
+      {
+          "pagePath": "pages/swi_scroll/swi_scroll",
+          "text": "swi_scroll"
       }
     ],
     "color": "black",

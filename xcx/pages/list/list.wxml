@@ -1,13 +1,13 @@
 <!--pages/list/list.wxml-->
+<button class="refresh_btn" hidden="{{not_refresh}}" loading="{{true}}">玩命刷新中...</button>
 <view>
 	<view class="product_data">
 		<view wx:for="{{list_data}}" wx:key="{{index}}" bindtap="itemTap" id="{{index}}" class="product_item">
 			<image src="{{item.goodsListImg}}"></image>
-			<view>
+			<view class="title">
 				<text>{{item.goodsName}}</text>
 			</view>			
 		</view>
 	</view>
-<!-- 	{{index}}: {{item.msg}} -->
-
 </view>
+<button class="more_btn" hidden="{{not_more}}" loading="{{true}}"></button>

@@ -14,3 +14,7 @@
 	width: 275rpx;
 	height: 275rpx;
 }
+.product_item .title {
+	height: 50rpx;
+	font-size: 30rpx;
+}

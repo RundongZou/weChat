@@ -1,0 +1,30 @@
+/* pages/swi_scroll/swi_scroll.wxss */
+.tabs_wrap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 100%;
+	display: flex;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.tab_item {
+	flex: 1;
+	height: 44px;
+	text-align: center;
+	line-height: 46px;
+	border-right: 2px solid #ccc;
+	box-sizing: border-box;
+}
+.tabs_wrap .active {
+	border-bottom: 1px solid green;
+}
+.swiper_wrap {
+	position: absolute;
+	left: 0;
+	top: 48px;
+	width: 100%;
+	bottom: 0;
+	height: auto;
+}
