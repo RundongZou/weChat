@@ -1,5 +1,5 @@
 <!--pages/list/list.wxml-->
-<button class="refresh_btn" hidden="{{not_refresh}}" loading="{{true}}">玩命刷新中...</button>
+<button class="refresh_btn" hidden="{{not_refresh}}" loading="{{false}}">玩命刷新中...</button>
 <view>
 	<view class="product_data">
 		<view wx:for="{{list_data}}" wx:key="{{index}}" bindtap="itemTap" id="{{index}}" class="product_item">

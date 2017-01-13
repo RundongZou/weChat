@@ -1,0 +1,7 @@
+<!--pages/detail/detail.wxml-->
+
+<view wx-for="{{data}}" wx:key="{{index}}">
+	<view>
+		<text>{{item.title}}</text>
+	</view>
+</view>

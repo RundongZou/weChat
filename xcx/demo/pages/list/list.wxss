@@ -1,4 +1,6 @@
-/* pages/swi_scroll/swi_scroll.wxss */
+/* pages/list/list.wxss */
+
+/*tabs*/
 .tabs_wrap {
 	position: absolute;
 	left: 0;
@@ -22,27 +24,22 @@
 .tabs_wrap .active {
 	border-bottom: 2px solid green;
 }
-.swiper_wrap {
-	position: absolute;
-	left: 0;
-	top: 48px;
-	width: 100%;
-	bottom: 0;
-	height: 550px;
+.product_data {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
 }
-.scroll_list {
-	position: absolute;
-	left: 0;
-	top: 0px;
-	width: 100%;
-	height: auto;
-	bottom: 0;
+.product_item {
+	width: 375rpx;
+	padding: 50rpx; 
 	text-align: center;
+	box-sizing: border-box;
 }
-.swiper_wrap image {
-	width: 90%;
-	margin: 5px auto;
+.product_item image {
+	width: 275rpx;
+	height: 275rpx;
 }
-swiper-item {
-	text-align: center;
+.product_item .title {
+	height: 50rpx;
+	font-size: 30rpx;
 }

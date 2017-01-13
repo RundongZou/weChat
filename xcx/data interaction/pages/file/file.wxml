@@ -1,0 +1,6 @@
+<!--pages/file/file.wxml-->
+<text>pages/file/file.wxml</text>
+<button bindtap="upload">upload</button>
+<view>
+	<image src="{{img_url}}"></image>
+</view>
