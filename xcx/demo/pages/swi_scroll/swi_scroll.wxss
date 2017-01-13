@@ -1,0 +1,48 @@
+/* pages/swi_scroll/swi_scroll.wxss */
+.tabs_wrap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 100%;
+}
+.tabs_list {
+	white-space: nowrap;
+	width: auto;
+}
+.tab_item {
+	width: 84px;
+	/*flex: 1;*/
+	height: 44px;
+	text-align: center;
+	line-height: 46px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.tabs_wrap .active {
+	border-bottom: 2px solid green;
+}
+.swiper_wrap {
+	position: absolute;
+	left: 0;
+	top: 48px;
+	width: 100%;
+	bottom: 0;
+	height: 550px;
+}
+.scroll_list {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	text-align: center;
+}
+.swiper_wrap image {
+	width: 90%;
+	margin: 5px auto;
+}
+swiper-item {
+	text-align: center;
+}

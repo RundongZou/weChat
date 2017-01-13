@@ -1,0 +1,25 @@
+<!--pages/list/list.wxml-->
+<!-- <button class="refresh_btn" hidden="{{not_refresh}}" loading="{{false}}">玩命刷新中...</button> -->
+
+<scroll-view class="tabs_wrap" scroll-x="{{true}}" scroll-left="{{scroll_left}}">
+	<view class="tabs_list">
+		<block wx:for="{{tabs}}" wx:key="{{index}}">
+			<view bindtap="swiper_to" data-ind="{{index}}" class="tab_item {{index === current ? 'active' : ''}}">
+				{{item}}
+			</view>
+		</block>
+	</view>	
+</scroll-view>
+
+<view>
+	<view class="product_data">
+		<view wx:for="{{list_data}}" wx:key="{{index}}" bindtap="itemTap" id="{{index}}" class="product_item">
+			<image src="{{item.goodsListImg}}"></image>
+			<view class="title">
+				<text>{{item.goodsName}}</text>
+			</view>			
+		</view>
+	</view>
+</view>
+
+<!-- <button class="more_btn" hidden="{{not_more}}" loading="{{true}}"></button> -->

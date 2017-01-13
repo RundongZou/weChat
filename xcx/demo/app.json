@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/swiper/swiper",
+    "pages/iscroll/iscroll",
+    "pages/swi_scroll/swi_scroll"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "lightblue",
+    "navigationBarTitleText": "愛與成長",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "lightblue"
+  },
+  "tabBar": {
+    "list": [
+      {
+          "pagePath": "pages/index/index",
+          "text": "index"
+      },
+      {
+          "pagePath": "pages/list/list",
+          "text": "list"
+      },
+      {
+          "pagePath": "pages/iscroll/iscroll",
+          "text": "iscroll"
+      },
+      {
+          "pagePath": "pages/swi_scroll/swi_scroll",
+          "text": "swi_scroll"
+      }
+    ],
+    "color": "black",
+    "backgroundColor": "#ddd",
+    "borderStyle": "white"
+  }
+}

@@ -1,0 +1,45 @@
+/* pages/list/list.wxss */
+
+/*tabs*/
+.tabs_wrap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 100%;
+}
+.tabs_list {
+	white-space: nowrap;
+	width: auto;
+}
+.tab_item {
+	width: 84px;
+	/*flex: 1;*/
+	height: 44px;
+	text-align: center;
+	line-height: 46px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.tabs_wrap .active {
+	border-bottom: 2px solid green;
+}
+.product_data {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+.product_item {
+	width: 375rpx;
+	padding: 50rpx; 
+	text-align: center;
+	box-sizing: border-box;
+}
+.product_item image {
+	width: 275rpx;
+	height: 275rpx;
+}
+.product_item .title {
+	height: 50rpx;
+	font-size: 30rpx;
+}
